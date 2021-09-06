@@ -4,8 +4,8 @@
 #include <cstring>
 #include <vector>
 #include <sstream>
-#include "includes/rrFile.cpp"
-#include "includes/rrFile.h"
+#include "includes/rrFile/rrFile.cpp"
+#include "includes/rrFile/rrFile.h"
 uint8_t twos_complement(uint8_t val)
 {
     return -(unsigned int)val;
